@@ -58,7 +58,14 @@ namespace ChallengesWithTestsMark8
 
         public int GetLengthOfShortestString(string str1, string str2)
         {
-            throw new NotImplementedException();
+            if (str1 == null) str1 = "";
+            if (str2 == null) str2 = "";
+
+            if (str1.Length < str2.Length)
+            {
+                return str1.Length;
+            }
+            return str2.Length;
         }
 
         public int Sum(int[] numbers)
@@ -80,28 +87,49 @@ namespace ChallengesWithTestsMark8
 
         public int SumEvens(int[] numbers)
         {
+            if (numbers == null || numbers.Length == 0)
+            {
+                return 0;
+            }
+            
+            var sum = 0;
+            
             foreach(var number in numbers)
             {
-                var sum = 0;
                 if (number % 2 == 0)
                 {
                     sum += number;
                 }
-
-                return sum;
+                
             }
             
-            return 0;
+            return sum;
         }
 
         public bool IsSumOdd(List<int> numbers)
         {
-            throw new NotImplementedException();
+            if (numbers == null || numbers.Count == 0)
+            {
+                return false;
+            }
+            
+            var sum = 0;
+            foreach (var number in numbers)
+            {
+                sum += number;
+            }
+
+            return sum % 2 != 0;
         }
 
         public long CountOfPositiveOddsBelowNumber(long number)
         {
-            throw new NotImplementedException();
+            if (number <= 0)
+            {
+                return 0;
+            }
+            
+            return number / 2;
         }
     }
 }
