@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ChallengesWithTestsMark8
 {
@@ -26,17 +27,33 @@ namespace ChallengesWithTestsMark8
 
         public bool IsNumberEven(int number)
         {
-            throw new NotImplementedException();
+            if (number % 2 == 0)
+            {
+                return true;
+            }
+            return false;
         }
 
         public bool IsNumberOdd(int num)
         {
-            throw new NotImplementedException();
+            if (num % 2 != 0)
+            {
+                return true;
+            }
+            return false;
         }
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
-            throw new NotImplementedException();
+            if (numbers == null || !numbers.Any())
+            {
+                return 0;
+            }
+    
+            var max = numbers.Max();
+            var min = numbers.Min();
+    
+            return min + max;
         }
 
         public int GetLengthOfShortestString(string str1, string str2)
@@ -46,12 +63,35 @@ namespace ChallengesWithTestsMark8
 
         public int Sum(int[] numbers)
         {
-            throw new NotImplementedException();
+            if (numbers != null && numbers.Length > 0)
+            {
+                int sum = 0;
+        
+                for (int i = 0; i < numbers.Length; i++)
+                {
+                    sum += numbers[i];
+                }
+        
+                return sum;
+            }
+    
+            return 0;
         }
 
         public int SumEvens(int[] numbers)
         {
-            throw new NotImplementedException();
+            foreach(var number in numbers)
+            {
+                var sum = 0;
+                if (number % 2 == 0)
+                {
+                    sum += number;
+                }
+
+                return sum;
+            }
+            
+            return 0;
         }
 
         public bool IsSumOdd(List<int> numbers)
