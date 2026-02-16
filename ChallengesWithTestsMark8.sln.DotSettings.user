@@ -1,4 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0f7fb6d5_002D5e66_002D434e_002D999d_002D32d436932655/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;ChallengesWithTestsMark8.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="C:\Users\fordp\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests" Presentation="&amp;lt;ChallengesWithTestsMark8.Tests&amp;gt;" /&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0f7fb6d5_002D5e66_002D434e_002D999d_002D32d436932655/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;ChallengesWithTestsMark8.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net9.0::ChallengesWithTestsMark8.Tests.ChallengesSet05Tests.NextNumberDivisibleByN&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net9.0::ChallengesWithTestsMark8.Tests.ChallengesSet05Tests.ChangeNamesOfBusinessesWithNoRevenueTo_CLOSED&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net9.0::ChallengesWithTestsMark8.Tests.ChallengesSet05Tests.IsAscendingOrder&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net9.0::ChallengesWithTestsMark8.Tests.ChallengesSet05Tests.SumElementsThaFollowAnEven&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net9.0::ChallengesWithTestsMark8.Tests.ChallengesSet05Tests.TurnWordsIntoSentence&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net9.0::ChallengesWithTestsMark8.Tests.ChallengesSet05Tests.GetEveryFourthElement&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net9.0::ChallengesWithTestsMark8.Tests.ChallengesSet05Tests.TwoDifferentElementsInArrayCanSumToTargetNumber&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
