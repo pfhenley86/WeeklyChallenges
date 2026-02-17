@@ -8,5 +8,8 @@
     &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net9.0::ChallengesWithTestsMark8.Tests.ChallengesSet05Tests.TurnWordsIntoSentence&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net9.0::ChallengesWithTestsMark8.Tests.ChallengesSet05Tests.GetEveryFourthElement&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net9.0::ChallengesWithTestsMark8.Tests.ChallengesSet05Tests.TwoDifferentElementsInArrayCanSumToTargetNumber&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net9.0::ChallengesWithTestsMark8.Tests.ChallengesSet06Tests.CollectionContainsWord&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net9.0::ChallengesWithTestsMark8.Tests.ChallengesSet06Tests.IsPrimeNumber&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5F6EDB8F-2166-447C-BACA-784679AC4459::net9.0::ChallengesWithTestsMark8.Tests.ChallengesSet06Tests.LastUniqueIndex&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
