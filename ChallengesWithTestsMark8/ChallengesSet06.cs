@@ -86,12 +86,45 @@ namespace ChallengesWithTestsMark8
 
         public int MaxConsecutiveCount(int[] numbers)
         {
-            throw new NotImplementedException();
+            int count = 0;
+
+            for (var i = 0; i < numbers.Length; i++)
+            {
+                int currentCount = 1;
+
+                for (var j = i + 1; j < numbers.Length; j++)
+                {
+                    if (numbers[i] != numbers[j])
+                    {
+                        break;
+                    }
+                    
+                    currentCount++;
+                }
+
+                if (currentCount > count)
+                {
+                    count = currentCount;
+                }
+            }
+            return count;
         }
 
         public double[] GetEveryNthElement(List<double> elements, int n)
         {
-            throw new NotImplementedException();
+            List<double> nthElement = new List<double>();
+
+            if (elements == null || n <= 0 || n > elements.Count)
+            {
+                return nthElement.ToArray();
+            }
+
+            for (var i = n - 1; i < elements.Count; i += n)
+            {
+                nthElement.Add(elements[i]);
+            }
+            
+            return nthElement.ToArray();
         }
     }
 }
